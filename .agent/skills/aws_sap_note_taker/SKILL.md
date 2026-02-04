@@ -77,7 +77,14 @@ created_at: "<Current Date YYYY-MM-DD>"
 <Paste Generated Content Here>
 ```
 
-### 6. Git Operations
+### 6. User Review
+Call the `notify_user` tool to request a review of the created files.
+- **PathsToReview**: Include the absolute paths of the created Problem and Note files.
+- **BlockedOnUser**: Set to `true`.
+- **Message**: "I have created the problem and note files. Please review them. If they look good, I will commit and push them."
+
+### 7. Git Operations
+*Only proceed if the user approves.*
 1.  Run `git add .`
 2.  Run `git commit -m "Add notes for <ID> <ShortTitle>"`
 3.  Run `git push origin main`
