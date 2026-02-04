@@ -12,27 +12,27 @@
 
 ---
 
-## 1. Context & Requirements (状況の読み解き)
+## 1. 状況の読み解き (Context & Requirements)
 
-- Visual Analysis: （画像がある場合のみ）構成図から読み取れるネットワーク経路、コンポーネント間の接続、隠れた制約を整理。
-- Core Requirements: 優先すべきビジネス要件（コスト、運用負荷、可用性等）と、絶対に守るべき技術制約を箇条書きで抽出。
+- **構成図の分析 (Visual Analysis)**: （画像がある場合のみ）構成図から読み取れるネットワーク経路、コンポーネント間の接続、隠れた制約を整理。
+- **必須要件 (Core Requirements)**: 優先すべきビジネス要件（コスト、運用負荷、可用性等）と、絶対に守るべき技術制約を箇条書きで抽出。
 
-## 2. Trigger Words (勝負を決めるキーワード)
+## 2. 勝負を決めるキーワード (Trigger Words)
 
 - 正解へ直結する '文中のヒント' を特定。
 - 'この言葉があれば、この構成を選ぶ' という、試験本番で反射的に判断するためのフラグを解説。
 
-## 3. Logical Reasoning & Distractor Analysis (なぜその答えか)
+## 3. なぜその答えか (Reasoning & Analysis)
 
-- Logical Reasoning: 正解がなぜ '最もスコアが高い' といえるのか、AWSの設計原則に基づいて論理的に解説。
-- Distractor Analysis: 他の選択肢がなぜ '不適切' あるいは '次点' なのか、試験特有のひっかけや実務上の欠陥の観点から鋭く分析。
+- **論理的根拠 (Logical Reasoning)**: 正解がなぜ '最もスコアが高い' といえるのか、AWSの設計原則に基づいて論理的に解説。
+- **選択肢の分析 (Distractor Analysis)**: 他の選択肢がなぜ '不適切' あるいは '次点' なのか、試験特有のひっかけや実務上の欠陥の観点から鋭く分析。
 
-## 4. Comparison & Official Resources (比較と公式資料)
+## 4. 比較と公式資料 (Comparison & Resources)
 
-- Comparison Table: 迷いやすい類似サービスや構成の判断基準をテーブル形式で明示。
-- Deep Dive: 理解を深めるためのAWS公式ドキュメント（デベロッパーガイド等）のURLを提示。
+- **比較表 (Comparison Table)**: 迷いやすい類似サービスや構成の判断基準をテーブル形式で明示。
+- **詳細資料 (Deep Dive)**: 理解を深めるためのAWS公式ドキュメント（デベロッパーガイド等）のURLを提示。
 
-## 5. Exam Memory Note (学習メモ)
+## 5. 学習メモ (Exam Note)
 
 ■ AWS SAP Exam Note: [トピック名] (SAP-XX)
 
