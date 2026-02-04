@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Notes
+# Ignore temporary files or brainstorming drafts if you want
+# *.draft.md
