@@ -2,7 +2,12 @@
 id: "SAP-XX"
 title: "Title Here"
 category: "CategoryName" # Architecture, Compute, Database, Networking, Security, Storage, Other
-domain: "DomainName" # e.g., "Design for New Solutions"
+domain: "DomainName"
+# Select one from:
+# - 複雑な組織に対応するソリューションの設計 (Design Solutions for Organizational Complexity)
+# - 新しいソリューションの設計 (Design for New Solutions)
+# - 既存のソリューションの継続的な改善 (Continuous Improvement for Existing Solutions)
+# - ワークロードの移行とモダナイゼーションの加速 (Accelerate Workload Migration and Modernization)
 tags:
   - "Tag1"
   - "Tag2"

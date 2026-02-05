@@ -65,7 +65,12 @@ Create the file at the **Note File** path using the content:
 id: "<ID>"
 title: "<ShortTitle>"
 category: "<Category>"
-domain: "Unknown" # You can attempt to infer this or leave as Unknown
+domain: "Unknown"
+# Select one from:
+# - 複雑な組織に対応するソリューションの設計
+# - 新しいソリューションの設計
+# - 既存のソリューションの継続的な改善
+# - ワークロードの移行とモダナイゼーションの加速
 tags:
   - "<Tag1>"
   - "<Tag2>"
